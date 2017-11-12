@@ -1,0 +1,471 @@
+
+.caption {
+  width: 250px;
+  background-color: #4aaaa5;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+}
+
+
+body {
+  background-image: url('../images/xxx.png');
+  margin: 0 auto;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #3f3f3a;
+  width: 100%;
+      
+}
+
+
+
+
+/* One thing that I could not figure out how to do was align all the
+"contact me" boxes with that of the larger boxes in the webpage. I 
+also was not able to align the images according to the px lengths.
+  */
+
+header {
+  background: black;
+  width: 100%;
+  height: 67px;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  padding-left: 20px;
+  margin-left: 290px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: left;
+  background-color: #4aaaa5;
+  float: left;
+}
+
+hr {
+  background-color: black;
+}
+
+.nav  {
+	float: right;
+	margin-right: 200px;
+	padding-top: 20px;
+}
+ #bio,
+ #contactme,
+ #portfolio,
+  #bioimg {
+ 	float: left;
+ 	margin-top: 1em;
+ 	margin-right: 0.7em;
+ }
+
+#connect {
+	width: 270px;
+	float: right;
+	background-color: #efefaa;
+	padding-left: 10px;
+	height: 170px;
+	margin-top: 1em;
+}
+
+#connectp {
+	width: 270px;
+	float: right;
+	background-color: #efefaa;
+	margin-left: 10px;
+	padding-left: 10px;
+	height: 170px;
+	margin-top: 1em;
+}
+
+#connectc {
+	width: 270px;
+	float: right;
+	background-color: #efefaa;
+	margin-left: 70px;
+	padding-left: 10px;
+	height: 170px;
+	margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+#about {
+	padding-left: 20px;
+	margin-bottom: -0.5em;
+  background-color: #efefaa;
+}
+
+ #bio {
+ 	width: 650px;
+  height: 800px;
+ 	padding-right: 20px;
+ 	background-color: #efefaa;
+ 	text-align: left;
+ 	padding-left: 20px
+ }
+#contactme {
+	width: 650px;
+ 	
+ 	background-color: #efefaa;
+ 	text-align: left;
+ 	padding-left: 20px;
+ 	margin: 0 auto;
+ 	float: left;
+}
+#portfolio {
+	width: 650px;
+ 	margin-right: 0px;
+ 	background-color: #efefaa;
+ 	align-content: center;
+	padding-top: 10px;
+ 	padding-left: 50px;
+ 	padding-bottom: 30px;
+}
+ .container {
+ 	width: 1024px;
+  height: 1000px;
+ 	margin: 0 auto;
+ }
+ .container2 {
+ 	width: 1024px;
+ 	margin: 0 auto;
+
+ }
+ .container3 {
+ 	width: 1024px;
+ 	margin: 0 auto;
+
+ }
+ .img1 {
+ 	float: left;
+ 	padding-right: 40px;
+
+ }
+.img2 {
+ 	float: left;
+ 	padding-left: 40px;
+ 	 
+ }
+ .img3 {
+ 	float: left;
+ 	padding-right: 40px;
+ 	
+ }
+ .img4 {
+ 	float: left;
+ 	padding-left: 40px;
+ }
+ .img5 {
+ 	float: left;
+ 	padding-bottom: 100px;
+
+ }
+
+ #message{
+     font-size:18pt;
+     height:420px;
+     width:200px;
+    }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: left;
+    z-index: 99999999999999;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+.container {
+        width: 980px;
+        height: 1000px;
+        margin-right: -15px;
+        
+       }
+       .container2 {
+        height: 980px;
+        width: 768px;
+        padding-left: 10px
+       }
+       .container3 {
+        width: 980px;
+        height: 1000px;
+        padding-left: 30px;
+      }
+
+      header {
+        width: 100%;
+        padding-right: 70px;
+
+      }
+      .nav  {
+       margin-right: 10px;
+       padding-right: 15px;
+    }
+      #bio {
+      width: 60%;
+      
+      margin-left: 15px;
+      }
+
+      #connect {
+        float: left;
+        width: 30%;
+        margin-left: 15px;
+      }
+      #connectp {
+        float: right;
+        width: 33%;
+        margin-right: 40px;
+      }
+      #connectc {
+        float: left;
+        width: 30%;
+        margin: 10px;
+        margin-left: 30px;
+        margin-top: 0px;
+      }
+
+      #portfolio {
+        width: 50%;
+      float: left;
+      margin-left: 10px;
+      margin-bottom: 150px;
+      }
+         .img1 {
+        float: right;
+        margin-right: 55px;
+       }
+      .img2 {
+        float: right;
+        margin-right: 95px;
+       }
+       .img3 {
+        float: right;
+        margin-right: 55px;
+       }
+       .img4 {
+       float: right;
+        margin-right: 95px;
+       }
+       .img5 {
+        float: right;
+        margin-right: 95px;
+        padding-bottom: 30px;
+
+       }
+      #contactme {
+        width: 55%;
+      }
+      
+    h1 {
+      padding-left: 20px;
+      margin-left: 10px;
+
+    }
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+      
+      .container {
+        width: 768px;
+        height: 1000px;
+        margin-right: -15px;
+        
+       }
+       .container2 {
+        height: 1000px;
+        width: 768px;
+        padding-left: 10px
+       }
+       .container3 {
+        width: 100%;
+        height: 1000px;
+        padding-left: 30px;
+      }
+
+      header {
+        width: 100%;
+        padding-right: 40px;
+
+      }
+      .nav  {
+       margin-right: 10px;
+       padding-right: 15px;
+    }
+      #bio {
+      width: 700px;
+      
+      margin-left: 15px;
+      }
+
+      #connect {
+        float: left;
+        width: 95%;
+        margin-left: 15px;
+      }
+      #connectp {
+        float: right;
+        width: 33%;
+        margin-right: 40px;
+      }
+      #connectc {
+        float: left;
+        width: 710px;
+        margin: 10px;
+        margin-left: 0px;
+        margin-top: 15px;
+      }
+
+      #portfolio {
+        width: 50%;
+      float: left;
+      margin-left: 10px;
+      margin-bottom: 150px;
+      }
+         .img1 {
+        float: right;
+        margin-right: 55px;
+       }
+      .img2 {
+        float: right;
+        margin-right: 95px;
+       }
+       .img3 {
+        float: right;
+        margin-right: 55px;
+       }
+       .img4 {
+       float: right;
+        margin-right: 95px;
+       }
+       .img5 {
+        float: right;
+        margin-right: 95px;
+        padding-bottom: 30px;
+
+       }
+      #contactme {
+        width: 700px;
+      }
+      
+    h1 {
+      padding-left: 20px;
+      margin-left: 10px;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+
+      .container {
+        width: 100%;
+        height: 1000px;   
+        overflow:hidden;  
+       }
+       header {
+        width: 100%;
+
+       }
+       footer{
+        width:100%;
+        margin-top: 100px;
+       }
+       .container2 {
+        height: 100%;
+        width: 640px;
+        padding-left: 10px
+       }
+       .container3 {
+        width: 100%;
+        height: 800px;
+        padding-left: 30px;
+      }
+      
+      #bio {
+      width: 80%;
+      height: 650px;
+      color: red;
+      margin-left: 15px;
+      }
+
+      #connect {
+        float: left;
+        width: 85%;
+        margin-left: 16px;
+      }
+      #connectp {
+        float: left;
+        width: 86.5%;
+        margin-left: 25px;
+        margin-bottom: 100px;
+      }
+      #connectc {
+        float: left;
+        width: 95%;
+              
+      }
+
+      #portfolio {
+        width: 80%;
+      float: left;
+      margin-left: 25px;
+      }
+      #contactme {
+        width: 580px;
+        
+      }
+      .nav  {
+      float: right;
+      margin-right: 10px;
+      padding-right: 0;
+      
+    }
+          .img1 {
+        float: right;
+        margin-right: 100px;
+       }
+      .img2 {
+        float: right;
+        margin-right: 140px;
+       }
+       .img3 {
+        float: right;
+        margin-right: 100px;
+       }
+       .img4 {
+       float: right;
+        margin-right: 140px;
+       }
+       .img5 {
+        float: right;
+        margin-right: 140px;
+        padding-bottom: 50px;
+
+       }
+    h1 {
+      /*padding-left: 20px;*/
+      margin-left: -4px;
+    }
+      
+}
+
